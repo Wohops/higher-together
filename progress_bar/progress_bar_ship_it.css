@@ -1,0 +1,25 @@
+.container {
+	padding: 10px;
+}
+
+#sonarsource_logo {
+	float: left;
+	background-image: url("pictures/SonarSource/white/SonarSource_white_256px.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: top right; 
+}
+
+h1, h2, td {
+	font-family: "arial";
+	color: white;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+body {
+	background-image: url("pictures/one-world-trade-center/1.jpg");
+	background-size: 100%;
+}
