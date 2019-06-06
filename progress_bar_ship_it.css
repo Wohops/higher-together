@@ -2,12 +2,24 @@
 	padding: 10px;
 }
 
+#info_panel {
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
 #sonarsource_logo {
-	float: left;
-	background-image: url("pictures/SonarSource/white/SonarSource_white_256px.png");
-	background-size: 50%;
-	background-repeat: no-repeat;
-	background-position: top right; 
+	width: 500px;
+}
+
+#sonarsource_logo img {
+	width: 256px;
+	float: right;
+}
+
+.progress {
+  background-color: rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 h1, h2, td {
@@ -15,11 +27,16 @@ h1, h2, td {
 	color: white;
 }
 
+hr {
+	color: white;
+	background-color: white;
+}
+
 h2 {
 	font-weight: bold;
 }
 
 body {
-	background-image: url("pictures/one-world-trade-center/1.jpg");
+	background-image: url("pictures/kosciuszko.jpg");
 	background-size: 100%;
 }
